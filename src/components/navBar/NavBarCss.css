@@ -1,0 +1,31 @@
+#nav{
+    width: 100%;
+    background: linear-gradient(to left, #7c63e0, #fff, #fff);
+    padding: 20px 0;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 9999999999;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.10);
+}
+#nav .dFlex{
+    justify-content: space-between;
+    align-items: center;
+}
+.navMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 80px;    
+}
+.navMenu li a{
+    font-weight: 700;
+    color: #192252;
+    text-transform: capitalize;
+}
+.navMenu li a:hover{
+    color: #0915f2;
+}
+#nav .btn.active{
+    background-color: #6345D5;
+}

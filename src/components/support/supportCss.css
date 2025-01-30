@@ -1,0 +1,19 @@
+#support{
+    padding: 40px 0;
+}
+#support p {
+    font-size: 24px;
+    font-weight: 500;
+    color: #848FAC;
+    text-align: center;
+    margin-bottom: 32px;
+}
+#support .dFlex{
+    justify-content: space-between;
+    align-items: center;
+}
+#support .dFlex span{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}

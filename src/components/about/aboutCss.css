@@ -1,0 +1,162 @@
+#about{
+    padding: 100px 0;
+    background-color: #201353;
+}
+#about .dFlex{
+    justify-content: space-between;
+}
+#about .dFlex .left{
+    width: 50%;
+}
+#about .dFlex .left h2{
+    width: 448px;
+    font-size: 52px;
+    font-weight: 700;
+    color: #fff;
+}
+#about .dFlex .left p{
+    width: 434px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: rgba(255, 255, 255, 0.64);
+    margin: 24px 0 64px;
+}
+#about .dFlex .left .abotPara{
+    width: 489px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.5;
+    color: #fff;
+    margin: 48px 0 46px;
+}
+#about .dFlex .left .userName{
+    width: 434px;
+    font-size: 18px;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 0.64);
+    margin-bottom: 48px;
+}
+.aboutCircleWrapper{
+    width: 416px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aboutCircleWrapper span{
+    width: 64px;
+    height: 64px;
+    background-color: #fff;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.aboutCircleWrapper span:nth-child(2){
+    background-color: rgba(255, 255, 255, 0.75);    
+}
+.aboutCircleWrapper span:nth-child(3){
+    background-color: rgba(255, 255, 255, 0.50);    
+}
+.aboutCircleWrapper span:nth-child(4){
+    background-color: rgba(255, 255, 255, 0.25);    
+}
+.aboutCircleWrapper span:nth-child(5){
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.25); 
+    display: flex;   
+    justify-content: center;
+    align-items: center;
+}
+#about .dFlex .right{
+    width: 50%;
+}
+#about .aboutCard{
+    width: 600px;
+    height: 678px;
+    float: right;
+    padding: 64px 80px;
+    background-color: rgba(255, 255, 255, 0.12);
+    border-radius: 24px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    -ms-border-radius: 24px;
+    -o-border-radius: 24px;
+}
+#about .aboutCard .aboutCardHead{
+    text-align: center;
+}
+#about .aboutCard .aboutCardHead h2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    margin: 24px 0 48px;
+}
+
+#aboutForm label{
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 150%;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#aboutForm input{
+    width: 100%;
+    padding: 14px 24px;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    outline: none;
+}
+#aboutForm input::placeholder{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #848FAC;
+}
+#aboutForm div{
+    margin-bottom: 30px;
+}
+#aboutForm textarea{
+    width: 100%;
+    padding: 8px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+#aboutForm button{
+    width: 100%;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #fff;
+    text-align: center;
+    /* background-color: #FC9770; */
+    background-color: #942900;
+    padding: 20px 0;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    outline: none;
+}
+#aboutForm p{
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    color: #fff;
+    text-align: right;
+    margin-top: 24px;
+}
+#aboutForm p span{
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.64);
+    margin-right: 8px;
+}
